@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>博客前端项目</title>
+    <script type="text/javascript" src="js/tool.js"></script>
+    <script type="text/javascript" src="js/base.js"></script>
+    <script type="text/javascript" src="js/animate.My.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <script src="js/myscroll.js"></script>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+</head>
+<body>
+     <div class="bla" id="bla"></div>
+     <div class="header w">
+          <div class="header_con clearfix">
+              <img src="images/logo.gif" alt="logo"/>
+              <ul class="ul1 clearfix">
+                  <li><a href="#" id="dlz">登录</a></li>
+                  <li><a href="#" id="zhuce">注册</a></li>
+                  <li>
+                      <div class="per clearfix" id="per">
+                          个人中心 <span class="icon" id="icon"></span>
+                          <ul class="ul2" id="ul2">
+                              <li><a href="#"><span></span>设置</a></li>
+                              <li><a href="#"><span></span>换肤</a></li>
+                              <li><a href="#"><span></span>帮助</a></li>
+                              <li><a href="#"><span></span>退出</a></li>
+                          </ul>
+                      </div>
+                  </li>
+              </ul>
+          </div>
+     </div>
+
+
+     <div class="login" id="login">
+         <div class="title">
+             <span id="tit">网站登录</span>
+             <img src="images/close.png" alt="close" id="close"/>
+         </div>
+         <div class="wen clearfix">
+             <span>账号：</span><input type="text"/>
+             <span>密码：</span><input type="text"/>
+             <input type="button" id="btn" value="登录"/>
+         </div>
+
+         <div class="txt"><a href="#">注册新用户</a>|<a href="#">忘记密码？</a></div>
+     </div>
+
+
+
+     <div class="ce" id="ce">
+         <div class="title">
+             <span id="tit1">会员注册</span>
+             <img src="images/close.png" alt="close" id="close1"/>
+         </div>
+         <div class="center clearfix" id="center">
+                 <div><span>用户名：</span><input type="text" id="user"/></div>
+                   <i id="i1" class="i1">请输入用户名，2~20位，由字母、数字和下划线组成！</i>
+                   <i id="i2" class="i2">输入不合法，请重新输入！</i>
+                   <i id="i3" class="i3">可用</i>
+
+                 <div><span>密码：</span><input type="password" id="pwd1"/></div>
+                 <i class="i5" id="i5">
+                     <p>安全级别：</p>
+                     <p><strong>○</strong>6-20 个字符</p>
+                     <p><strong>○</strong> 只能包含大小写字母、数字和非空格字符</p>
+                     <p><strong>○</strong>大、小写字母、数字、非空字符，2种以上</p>
+                 </i>
+
+
+
+                 <div><span>密码确认：</span><input type="password" id="pwd2"/></div><i></i>
+                 <div><span>提问：</span>
+                     <select name="sel1" id="sel1">
+                         <option value="0" selected>--请选择</option>
+                         <option value="1">--你最喜欢吃的菜</option>
+                         <option value="2">--你的狗狗的名字</option>
+                         <option value="3">--您的出生地</option>
+                         <option value="4">--你最喜欢的名字</option>
+
+                     </select>
+                 </div><i></i>
+                 <div><span>回答：</span><input type="text" id="answer"/></div><i></i>
+                 <div><span>电子邮件：</span><input type="text" id="addr"/></div><i></i>
+                 <div>
+                      <span>生日：</span>
+                     <select name="sel2" id="sel2">
+                         <option value="0" selected>-年-</option>
+                         <option value="1">2016年</option>
+                         <option value="1">1995年</option>
+                     </select> -
+                     <select name="sel2" id="sel3">-
+                         <option value="0" selected>-月-</option>
+                         <option value="1">1月</option>
+                         <option value="1">2月</option>
+                     </select> -
+                     <select name="sel2" id="sel4">-
+                         <option value="0" selected>-日-</option>
+                         <option value="1">1</option>
+                     </select>
+                 </div><i></i>
+                 <div class="sometxt">
+                      <span>备注：</span>
+                      <textarea name="" id="txt_num" cols="30" rows="3"></textarea>
+                      <p class="shuru">还可以输入 <span id="number">200</span>个字</p>
+                 </div><i></i>
+                 <div id="bott"><img src="images/reg.png" alt="reg"/></div>
+         </div>
+     </div>
+
+
+    <div class="nav" id="nav">
+            <ul class="blank" id="blank">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <ul class="black clearfix">
+                <li>首页</li>
+                <li>博文列表</li>
+                <li>精彩相册</li>
+                <li>动感音乐</li>
+                <li>关于我</li>
+            </ul>
+            <div id="fudong" class="fudong">
+                <ul class="white" id="white">
+                    <li>首页</li>
+                    <li>博文列表</li>
+                    <li>精彩相册</li>
+                    <li>动感音乐</li>
+                    <li>关于我</li>
+                </ul>
+            </div>
+    </div>
+
+
+
+   <div class="content clearfix">
+           <div class="con_left" id="con_left">
+               <h2>教育博文1</h2>
+               <ul>
+                   <li><a href="#">靠自己95 后女生被16 所国外名校录取</a></li>
+                   <li><a href="#">00 后的成长烦恼：压力巨大成隐形杀手</a></li>
+                   <li><a href="#">一年自学MIT 的33 门课? 疯狂学习方法</a></li>
+                   <li><a href="#">申请赴美读研人数下降5% 7 年来首遇冷</a></li>
+                   <li><a href="#">西政“萌招聘”秀出辣椒与美女被赞</a></li>
+               </ul>
+               <h2>教育博文2</h2>
+               <ul>
+                   <li><a href="#">靠自己95 后女生被16 所国外名校录取</a></li>
+                   <li><a href="#">00 后的成长烦恼：压力巨大成隐形杀手</a></li>
+                   <li><a href="#">一年自学MIT 的33 门课? 疯狂学习方法</a></li>
+                   <li><a href="#">申请赴美读研人数下降5% 7 年来首遇冷</a></li>
+                   <li><a href="#">西政“萌招聘”秀出辣椒与美女被赞</a></li>
+               </ul>
+               <h2>教育博文3</h2>
+               <ul>
+                   <li><a href="#">靠自己95 后女生被16 所国外名校录取</a></li>
+                   <li><a href="#">00 后的成长烦恼：压力巨大成隐形杀手</a></li>
+                   <li><a href="#">一年自学MIT 的33 门课? 疯狂学习方法</a></li>
+                   <li><a href="#">申请赴美读研人数下降5% 7 年来首遇冷</a></li>
+                   <li><a href="#">西政“萌招聘”秀出辣椒与美女被赞</a></li>
+               </ul>
+           </div>
+
+         <div class="con_right">
+             box
+         </div>
+   </div>
+
+  <div class="lunbo" id="lunbo">
+      <img src="images/banner1.jpg" alt="轮播器第一张" class="current"/>
+      <img src="images/banner2.jpg" alt="轮播器第二张"/>
+      <img src="images/banner3.jpg" alt="轮播器第三张"/>
+      <div class="bot">
+          <span id="sptxt"></span>
+          <ul class="clearfix">
+              <li class="current"></li>
+              <li></li>
+              <li></li>
+          </ul>
+      </div>
+  </div>
+
+
+     <div class="share" id="share">
+         <h2>分享到</h2>
+         <ul>
+             <li><a href="#" class="a">一键分享</a></li>
+             <li><a href="#" class="b">新浪微博</a></li>
+             <li><a href="#" class="c">人人网</a></li>
+             <li><a href="#" class="d">百度相册</a></li>
+             <li><a href="#" class="e">腾讯朋友</a></li>
+             <li><a href="#" class="f">豆瓣网</a></li>
+             <li><a href="#" class="g">百度首页</a></li>
+             <li><a href="#" class="h">和讯微博</a></li>
+             <li><a href="#" class="i">QQ 空间</a></li>
+             <li><a href="#" class="j">百度搜藏</a></li>
+             <li><a href="#" class="k">腾讯微博</a></li>
+             <li><a href="#" class="l">开心网</a></li>
+             <li><a href="#" class="m">百度贴吧</a></li>
+             <li><a href="#" class="n">搜狐微博</a></li>
+             <li><a href="#" class="o">QQ 好友</a></li>
+             <li><a href="#" class="p">更多...</a></li>
+         </ul>
+         <div class="share_footer">
+             <a href="#">百度分享</a>
+             <span id="fx"></span>
+         </div>
+     </div>
+
+
+
+
+     <div id="photo">
+         <dl>
+             <dt><img xsrc="images/p1.jpg" bigsrc="images/p1big.jpg" src="images/wait_load.jpg" class="wait_load" alt="" /></dt>
+             <dd>延迟加载图片</dd>
+         </dl>
+
+         <dl>
+             <dt><img xsrc="images/p2.jpg" bigsrc="images/p2big.jpg" src="images/wait_load.jpg" class="wait_load" alt="" /></dt>
+             <dd>延迟加载图片</dd>
+         </dl>
+
+         <dl>
+             <dt><img xsrc="images/p3.jpg" bigsrc="images/p3big.jpg" src="images/wait_load.jpg" class="wait_load" alt="" /></dt>
+             <dd>延迟加载图片</dd>
+         </dl>
+
+         <dl>
+             <dt><img xsrc="images/p4.jpg" bigsrc="images/p4big.jpg" src="images/wait_load.jpg" class="wait_load" alt="" /></dt>
+             <dd>延迟加载图片</dd>
+         </dl>
+
+         <dl>
+             <dt><img xsrc="images/p5.jpg" bigsrc="images/p5big.jpg" src="images/wait_load.jpg" class="wait_load" alt="" /></dt>
+             <dd>延迟加载图片</dd>
+         </dl>
+
+         <dl>
+             <dt><img xsrc="images/p6.jpg" bigsrc="images/p6big.jpg" src="images/wait_load.jpg" class="wait_load" alt="" /></dt>
+             <dd>延迟加载图片</dd>
+         </dl>
+
+         <dl>
+             <dt><img xsrc="images/p7.jpg" bigsrc="images/p7big.jpg" src="images/wait_load.jpg" class="wait_load" alt="" /></dt>
+             <dd>延迟加载图片</dd>
+         </dl>
+
+         <dl>
+             <dt><img xsrc="images/p8.jpg" bigsrc="images/p8big.jpg" src="images/wait_load.jpg" class="wait_load" alt="" /></dt>
+             <dd>延迟加载图片</dd>
+         </dl>
+
+         <dl>
+             <dt><img xsrc="images/p9.jpg" bigsrc="images/p9big.jpg" src="images/wait_load.jpg" class="wait_load" alt="" /></dt>
+             <dd>延迟加载图片</dd>
+         </dl>
+
+         <dl>
+             <dt><img xsrc="images/p10.jpg" bigsrc="images/p10big.jpg" src="images/wait_load.jpg" class="wait_load" alt="" /></dt>
+             <dd>延迟加载图片</dd>
+         </dl>
+
+         <dl>
+             <dt><img xsrc="images/p11.jpg" bigsrc="images/p11big.jpg" src="images/wait_load.jpg" class="wait_load" alt="" /></dt>
+             <dd>延迟加载图片</dd>
+         </dl>
+
+         <dl>
+             <dt><img xsrc="images/p12.jpg" bigsrc="images/p12big.jpg" src="images/wait_load.jpg" class="wait_load" alt="" /></dt>
+             <dd>延迟加载图片</dd>
+         </dl>
+
+     </div>
+      <div class="add" id="add">
+          <div class="title">
+              <span id="tit2">图片预加载</span>
+              <img src="images/close.png" alt="close" id="close2"/>
+          </div>
+          <div class="box00" id="box00">
+              <img src="images/p12.jpg" alt="close" id="box00img"/>
+          </div>
+      </div>
+<div id="hidd"></div>
+</body>
+</html>
+<script src="index.js"></script>
+
+
+
